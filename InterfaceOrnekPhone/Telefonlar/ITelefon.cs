@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace InterfaceOrnekPhone
+{
+    public interface ITelefon
+    {
+        void MesajAt();
+        void AramaYap();
+        void SarjEt();
+
+
+    }
+}

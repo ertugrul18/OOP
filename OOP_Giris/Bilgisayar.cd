@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="OOP_Giris.Bilgisayar.AnaKart">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAABECAAAiAAAAAAAI=</HashCode>
+      <FileName>Bilgisayar\AnaKart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Giris.Bilgisayar.CPU">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAEAAAAQAEAAAAIAAAAAAAAAAAAAAAAAoAAAAAAAA=</HashCode>
+      <FileName>Bilgisayar\CPU.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Giris.Bilgisayar.EkranKarti">
+    <Position X="9" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAQAQAAAgAAAAAAAA=</HashCode>
+      <FileName>Bilgisayar\EkranKarti.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Giris.Bilgisayar.GucKaynagi">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Bilgisayar\GucKaynagi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Giris.Bilgisayar.HDD">
+    <Position X="2" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAIAAAAAAAAAAAAAAQAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Bilgisayar\HDD.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Giris.Bilgisayar.Kasa">
+    <Position X="3.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAASAgAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Bilgisayar\Kasa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Giris.Bilgisayar.Ram">
+    <Position X="5.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAKAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAgAA=</HashCode>
+      <FileName>Bilgisayar\Ram.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Giris.Bilgisayar.SSD">
+    <Position X="7.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAIAAAAAAAAAAAAAAQAAAAAAAAAACgAAAIAAAA=</HashCode>
+      <FileName>Bilgisayar\SSD.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="OOP_Giris.Bilgisayar.IslemciTipi">
+    <Position X="9" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQABAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Bilgisayar\CPU.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
