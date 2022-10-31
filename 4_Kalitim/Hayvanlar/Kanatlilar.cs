@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _4_Kalitim.Hayvanlar
 {
-    public class Kanatlilar : BaseHayvan, IKosabilir, IYuruyebilir
+    public class Kanatlilar : BaseHayvan
     {
         public void Yuzebilir()
         {
