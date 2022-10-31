@@ -1,3 +1,0 @@
-﻿Marketteki bir kasiyeri modelleyin.
-- Fatura kesilecek.
-- Ödeme alınacak (nakit, KrediKartı, Sodexso vb çeşitlendirin.)

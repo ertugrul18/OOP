@@ -14,5 +14,10 @@ namespace Kasa
         {
             throw new NotImplementedException();
         }
+
+        public FaturaMaster SatısYap(Personel personel, Urun urun, Müsteri Müsteri)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -28,7 +28,7 @@ namespace _3_EnCapsulation
             Console.WriteLine(fatma.TcNo);
 
 
-            Insan ali = new Insan("ali","yilmaz");
+           // Insan ali = new Insan("ali","yilmaz");
         }
 
     }

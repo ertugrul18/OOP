@@ -1,6 +1,8 @@
 ﻿using System;
 using _7_InterfaceLab.FirinOtomasyon;
 using _7_InterfaceLab.Güvenlik;
+using Kasa;
+using InterfaceOrnekPhone.Kasiyer;
 
 namespace _7_InterfaceLab
 {
@@ -56,7 +58,7 @@ namespace _7_InterfaceLab
             GuvenlikGorevlisi BekciMurtaza = new GuvenlikGorevlisi();
             BekciMurtaza.Ad = "Murtaza";
             BekciMurtaza.Soyad = "Kaya";
-            KimlikKarti ahmet = new KimlikKarti() {TcNo ="123" };
+            KimlikKarti ahmet = new KimlikKarti() { TcNo = "123" };
             KimlikKarti mehmet = new KimlikKarti() { TcNo = "456" };
             KimlikKarti ayse = new KimlikKarti() { TcNo = "789" };
             KimlikKarti fatma = new KimlikKarti() { TcNo = "abc" };
@@ -80,6 +82,8 @@ namespace _7_InterfaceLab
             BekciMurtaza.KimlikleriListele();
 
             #endregion
+
         }
+
     }
 }

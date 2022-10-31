@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
-namespace _7_InterfaceLab.FaturaKesim
+namespace Kasa
 {
-    public class Musteri
+    public class Müsteri
     {
         public string AdSoyad { get; set; }
+        
         public string TcNo { get; set; }
+
     }
 }
