@@ -46,6 +46,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Kasiyer\FaturaDetay.cs" />
+    <Compile Include="Kasiyer\FaturaMaster.cs" />
+    <Compile Include="Kasiyer\Isatıs.cs" />
+    <Compile Include="Kasiyer\Kasa.cs" />
+    <Compile Include="Kasiyer\Müsteri.cs" />
+    <Compile Include="Kasiyer\Personel.cs" />
+    <Compile Include="Kasiyer\Program.cs" />
+    <Compile Include="Kasiyer\Satıs.cs" />
+    <Compile Include="Kasiyer\Urun.cs" />
     <Compile Include="PhoneHoca\BasePhone.cs" />
     <Compile Include="PhoneHoca\IPhone.cs" />
     <Compile Include="PhoneHoca\ISmartPhone.cs" />
