@@ -1,9 +1,10 @@
 ﻿using _9_Polimorfizm.Alan_Hesabı;
 using _9_Polimorfizm.Calısanlar;
+using _9_Polimorfizm.Emlak;
 
 namespace _9_Polimorfizm
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -23,38 +24,46 @@ namespace _9_Polimorfizm
             //Console.WriteLine("Daire Alani:" + daire.Alan());
 
 
-            Sekreter ayse = new Sekreter()
-            {
-                AdSoyad = "Ayse",
-                CocukSayisi = 2,
-                EgitimDurumu = EgitimDurumu.Lise
+            //Sekreter ayse = new Sekreter()
+            //{
+            //    AdSoyad = "Ayse",
+            //    CocukSayisi = 2,
+            //    EgitimDurumu = EgitimDurumu.Lise
 
-            };
+            //};
 
-            Yazilimci ali = new Yazilimci()
-            {
-                AdSoyad = "Ali",
-                CocukSayisi = 2,
-                EgitimDurumu = EgitimDurumu.YuksekLisans,
-                Seviye = Seviye.Orta
+            //Yazilimci ali = new Yazilimci()
+            //{
+            //    AdSoyad = "Ali",
+            //    CocukSayisi = 2,
+            //    EgitimDurumu = EgitimDurumu.YuksekLisans,
+            //    Seviye = Seviye.Orta
 
-            };
+            //};
 
-            ItMuduru fatma = new ItMuduru()
-            {
-                AdSoyad = "Fatma",
-                CocukSayisi = 2,
-                EgitimDurumu = EgitimDurumu.Doktora,
-                Performansi = Persormans.Iyi,
-                Seviye = Seviye.Usta
-            };
-
-
-            Console.WriteLine("Sekreter  Maasi: " + ayse.MaasHesapla());
-            Console.WriteLine("Orta Yazilimci  Maasi: " + ali.MaasHesapla());
-            Console.WriteLine("Orta Yazilimci  Maasi: " + fatma.MaasHesapla());
+            //ItMuduru fatma = new ItMuduru()
+            //{
+            //    AdSoyad = "Fatma",
+            //    CocukSayisi = 2,
+            //    EgitimDurumu = EgitimDurumu.Doktora,
+            //    Performansi = Persormans.Iyi,
+            //    Seviye = Seviye.Usta
+            //};
 
 
+            //Console.WriteLine("Sekreter  Maasi: " + ayse.MaasHesapla());
+            //Console.WriteLine("Orta Yazilimci  Maasi: " + ali.MaasHesapla());
+            //Console.WriteLine("Orta Yazilimci  Maasi: " + fatma.MaasHesapla());
+
+            BaseEmlak ali = new BaseEmlak();
+            ali.AdSoyad = "Ali Veli";
+            ali.MetreKare = 150;
+            ali.Sitemi = true;
+            ali.kimden = Kimden.Emlakci;
+            ali.KatSayisi = 3;
+            ali.Esyalimi = true;
+            ali.KiraHesapla();
+            Console.WriteLine(ali.ToString());
         }
     }
 }
