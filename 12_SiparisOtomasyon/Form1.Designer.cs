@@ -127,6 +127,7 @@
             this.raporlaToolStripMenuItem.Name = "raporlaToolStripMenuItem";
             this.raporlaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.raporlaToolStripMenuItem.Text = "Raporla";
+            this.raporlaToolStripMenuItem.Click += new System.EventHandler(this.raporlaToolStripMenuItem_Click);
             // 
             // extraEkleToolStripMenuItem
             // 

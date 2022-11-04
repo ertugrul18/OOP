@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _12_SiparisOtomasyon.Entities;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,27 @@ namespace _12_SiparisOtomasyon.Forms
         public frmSiparisRapor()
         {
             InitializeComponent();
+        }
+
+        private void frmSiparisRapor_Load(object sender, EventArgs e)
+        {
+            decimal ciro = 0;
+            decimal extraMalzemeGeliri = 0;
+            int SatisAdedi = 0;
+
+            foreach (Siparis siparis in Form1.Siparisler)
+            {
+                ciro += siparis.ToplamTutar;
+                foreach (var extra in siparis.Extralar)
+                {
+                    extraMalzemeGeliri += extra.ExtraFiyati;
+                }
+                SatisAdedi++;
+            }
+
+            lblCiro.Text = ciro.ToString("C2");
+            lblExtra.Text = extraMalzemeGeliri.ToString("C2");
+            label1.Text = SatisAdedi.ToString();
         }
     }
 }

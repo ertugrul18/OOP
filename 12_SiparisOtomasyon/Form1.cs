@@ -59,5 +59,12 @@ namespace _12_SiparisOtomasyon
             frmMenu.MdiParent = this;
             frmMenu.Show();
         }
+
+        private void raporlaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmSiparisRapor frmSiparisRapor= new frmSiparisRapor();
+            frmSiparisRapor.MdiParent = this;
+            frmSiparisRapor.Show();
+        }
     }
 }
