@@ -10,6 +10,8 @@ namespace _16_Reflection
     {
         public string TcNo { get; set; }
         public string AdSoyad { get; set; }
+        public string Email { get; set; }
+        public string Gsm { get; set; }
 
     }
 }

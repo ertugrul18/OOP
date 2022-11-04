@@ -8,7 +8,11 @@ namespace _16_Reflection
 {
     internal interface IOgrenci
     {
+
         bool OkulaGel();
         bool DerseGir();
+
+        bool EfendiOl();
+
     }
 }
